@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <menu class="mobile-menu">
+        <nav class="mobile-menu__navbar">
+          <a class="mobile-menu__item mobile-active-menu" href="#home">Home</a>
+          <a class="mobile-menu__item" href="#about">About me</a>
+          <a class="mobile-menu__item" href="#portfolio">Project</a>
+          <a class="mobile-menu__item" href="#contact">Contact</a>
+        </nav>
+      </menu>
+      <div class="header__wrapper">
+        <menu class="burger">
+          <span class="midlle-line"></span>
+        </menu>
+        <nav class="header__navbar navbar">
+          <a class="navbar__item active-menu" href="#home">Home</a>
+          <a class="navbar__item" href="#about">About me</a>
+          <a class="navbar__item" href="#portfolio">Project</a>
+          <a class="navbar__item" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content"> 
+      <div class="main-content__wrapper wrapper">
+        <section id="home" class="welcome-block section">
+          <div class="welcome-block__text">
+            <h1 class="welcome-block__title">Front-End React Developer</h1>
+            <h3 class="welcome-block__sub-title">
+              Hi, my name is Volodymyr Sasnyk. Beginning react developer from
+              Ukraine, Dolyna.
+            </h3>
+            <div class="welcome-block__prog-link">
+              <a href="https://www.linkedin.com/in/volodymyr-sasnyk-79b4442a2/" target="_blank"><img src="./assets/svg/linkedin.svg" /></a>
+              <a href="https://github.com/SasnykVova" target="_blank"><img src="./assets/svg/github.svg" /></a>
+            </div>
+          </div>
+          <div class="welcome-photo">
+            <img
+              src="./assets/img/photo_2024-02-20_18-20-40.jpg"
+              alt="myPhoto"
+            />
+          </div>
+        </section>
+        <section class="stack-block">
+          <div class="stack-block__title">Tech Stack</div>
+          <div class="stack-block__img-container">
+            <div class="stack-block__img-wrapper">
+              <img src="./assets/svg/html-icon.svg" alt="html-logo" />
+            </div>
+            <div class="stack-block__img-wrapper">
+              <img src="./assets/svg/css-icon.svg" alt="css-logo" />
+            </div>
+            <div class="stack-block__img-wrapper">
+              <img
+                src="./assets/svg/javascript-logo-svgrepo-com.svg"
+                alt="javaScript-logo"
+              />
+            </div>
+            <div class="stack-block__img-wrapper">
+              <img src="./assets/svg/react-svgrepo-com.svg" alt="react-logo" />
+            </div>
+            <div class="stack-block__img-wrapper">
+              <img src="./assets/svg/redux.svg" alt="redux-logo" />
+            </div>
+            <div class="stack-block__img-wrapper">
+              <img src="./assets/svg/sass.svg" alt="sass-logo" />
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about-block section">
+          <div class="about-block__title-wrapper _title-wrapper">
+            <h2 class="about-block__title _title">About me</h2>
+          </div>
+          <div class="about-block__content">
+            <div class="about-block__img-wrapper">
+              <img class="about-block__img" src="./assets/img/work.jpg" alt="work top">
+            </div>
+            <div class="about-block__description-wrapper">
+              <h3 class="about-block__sub-title">
+                Hi, my name is Volodymyr Sasnyk. Beginning react developer from
+                Ukraine, Dolyna.
+              </h3>
+              <div class="about-block__text">
+                As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Redux, Redux Toolkit
+and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience.I don't have experience working in a company, but I have experience developing my own pet projects.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio" class="portfolio-block section">
+          <div class="portfolio-block__title-wrapper _title-wrapper">
+            <h2 class="portfolio-block__title _title">Portfolio</h2>
+          </div>
+          <h3 class="portfolio-block__sub-title _sub-title">
+            Here you can see my developed projects and explanations about them.
+          </h3>
+          <div class="project-wrapper">
+            <div class="project-block">
+              <div class="project-block__img-wrapper">
+                  <img src="./assets/img/relvise.png" alt="web-site relvise">
+              </div>
+              <div class="project-block__discription">
+                <h3 class="project-block__title">Relvise</h3>
+                <div class="project-block__text">On this website you can see my responsive website design skills where I use html and scss. 
+                  Also in this project I use a few lines of pure JS code to implement the burger menu.</div>
+                <div class="project-block__technologies">HTML SCSS JavaScript</div>
+                <div class="project-block__links">
+                  <a class="project-block__link" href="https://github.com/SasnykVova/Relvise" target="_blank">
+                    <div class="project-block__link-text">Code</div>
+                    <img class="project-block__link-icon" src="./assets/svg/githubwhite.svg" alt="github icon">
+                  </a>
+                  <a class="project-block__link" href="https://sasnykvova.github.io/Relvise/" target="_blank">
+                    <div class="project-block__link-text">Live Demo</div>
+                    <img class="project-block__link-icon" src="./assets/svg/link.svg">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-block">
+              <div class="project-block__discription">
+                <h3 class="project-block__title">GoCorona</h3>
+                <div class="project-block__text">On this website you can see my responsive website design skills where I use html and scss.</div>
+                <div class="project-block__technologies">HTML SCSS</div>
+                <div class="project-block__links">
+                  <a class="project-block__link" href="https://github.com/SasnykVova/GoCorona" target="_blank">
+                    <div class="project-block__link-text">Code</div>
+                    <img class="project-block__link-icon" src="./assets/svg/githubwhite.svg" alt="github icon">
+                  </a>
+                  <a class="project-block__link" href="https://sasnykvova.github.io/GoCorona" target="_blank">
+                    <div class="project-block__link-text">Live Demo</div>
+                    <img class="project-block__link-icon" src="./assets/svg/link.svg">
+                  </a>
+                </div>
+              </div>
+              <div class="project-block__img-wrapper">
+                  <img src="./assets/img/GoCorona.png" alt="web-site relvise">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="contact-block section">
+          <div class="contact-block__title-wrapper _title-wrapper">
+            <h2 class="contact-block__title _title">Contact</h2>
+          </div>
+          <h3 class="portfolio-block__sub-title _sub-title">
+            Contact me here.
+          </h3>
+          <div class="my-contact-block">
+            <div class="my-contact-block__block">
+              <div class="my-contact-block__item">
+                <div class="my-contact-block__icon">
+                  <img src="./assets/svg/linkedin.svg" alt="LinkedIn" />
+                </div>
+                <div class="my-contact-block__title-link">
+                  <div class="my-contact-block__title">LinkedIn</div>
+                  <a
+                    class="my-contact-block__link"
+                    href="https://www.linkedin.com/in/volodymyr-sasnyk-79b4442a2/"
+                    target="_blank"
+                    ><div>LinkedIn</div>
+                    <img id="svg" src="./assets/svg/link.svg" alt="link"
+                  /></a>
+                </div>
+              </div>
+              <div class="my-contact-block__item">
+                <div class="my-contact-block__icon">
+                  <img src="./assets/svg/email.svg" alt="Email" />
+                </div>
+                <div class="my-contact-block__title-link">
+                  <div class="my-contact-block__title">Email</div>
+                  <a class="my-contact-block__not-link"
+                    ><div>sasnyk2000@ukr.net</div></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="my-contact-block__block">
+              <div class="my-contact-block__item">
+                <div class="my-contact-block__icon">
+                  <img
+                    src="./assets/svg/github.svg"
+                    fill="#ff4a57"
+                    width="24"
+                    height="24"
+                    alt="GitHub"
+                  />
+                </div>
+                <div class="my-contact-block__title-link">
+                  <div class="my-contact-block__title">GitHub</div>
+                  <a
+                    class="my-contact-block__link"
+                    href="https://github.com/SasnykVova"
+                    target="_blank"
+                    ><div>GitHub</div>
+                    <img src="./assets/svg/link.svg" alt="link"
+                  /></a>
+                </div>
+              </div>
+              <div class="my-contact-block__item">
+                <div class="my-contact-block__icon">
+                  <img
+                    src="./assets/svg/instagram-logo.svg"
+                    fill="#ff4a57"
+                    width="24"
+                    height="24"
+                    alt="Instagram"
+                  />
+                </div>
+                <div class="my-contact-block__title-link">
+                  <div class="my-contact-block__title">Instagram</div>
+                  <a
+                    class="my-contact-block__link"
+                    href="https://www.instagram.com/sasnykvova/"
+                    target="_blank"
+                    ><div>Instagram</div>
+                    <img src="./assets/svg/link.svg" alt="link"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./javaScript.js"></script>
+  </body>
+</html>
